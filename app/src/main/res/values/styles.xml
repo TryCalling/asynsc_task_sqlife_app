@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Customize your theme here -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Set the status bar color for the entire app -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+    </style>
+</resources>

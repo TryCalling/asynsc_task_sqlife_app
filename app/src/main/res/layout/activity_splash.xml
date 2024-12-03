@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Circular ProgressBar -->
+    <ProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminate="true"
+        android:layout_gravity="center"
+        android:theme="@style/Widget.AppCompat.ProgressBar" />
+
+    <!-- Horizontal ProgressBar -->
+    <ProgressBar
+        android:id="@+id/horizontalProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_marginTop="16dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="50"
+        android:progressTint="@color/teal_200"
+        android:backgroundTint="@color/gray"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal" />
+
+    <!-- Text to display progress -->
+    <TextView
+        android:id="@+id/progressText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Loading... 50%"
+        android:textSize="16sp"
+        android:textColor="@color/black" />
+</LinearLayout>

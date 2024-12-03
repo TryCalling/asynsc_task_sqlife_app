@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- When the button is pressed -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#FF7043"/> <!-- Orange when pressed -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- When the button is focused (e.g., when it's clicked or selected) -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#FF5722"/> <!-- Darker Orange when focused -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Normal state (when no other state applies) -->
+    <item>
+        <shape>
+            <solid android:color="#FFCC80"/> <!-- Light Orange as the normal state -->
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+</selector>
